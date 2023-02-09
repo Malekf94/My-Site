@@ -1,8 +1,5 @@
 body {
-	/* background-color: blue; */
-	/* margin: 0%; */
 	text-align: center;
-	/* color: ; */
 }
 
 .top-container {
@@ -30,6 +27,12 @@ h3 {
 
 a {
 	color: #11999e;
+	margin: 10px 20px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #eaf6f6;
 }
 
 .top-cloud {
@@ -48,6 +51,7 @@ a {
 	background-color: #66bfbf;
 	margin-top: 100px;
 	width: 100%;
+	padding: 50px 0 20px;
 }
 
 .imageOfMe {
@@ -109,4 +113,9 @@ hr {
 	border-bottom: none;
 	width: 4%;
 	margin: 100px auto;
+}
+
+.copyright {
+	color: #eaf6f6;
+	font-size: 0.75rem;
 }
